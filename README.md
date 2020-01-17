@@ -14,7 +14,7 @@ A partir de ese momento, ya podremos utilizar la aplicación.
 
 La aplicación tiene una funcionalidad muy básica, pero puede enviar y recibir texto, puede recibir imágenes, videos, audios y gifs animados.
 
-Para poder instalar la aplicación en un dispositivo con sistema Kaios, primero debemos activar el modo de desarrollo, con la combinación de teclas siguiente: **#**#33284#**#**
+Para poder instalar la aplicación en un dispositivo con sistema Kaios, primero debemos activar el modo de desarrollo, con la combinación de teclas siguiente: *#*#33284#*#* (asterisco/almohadilla/asterisco/almohadilla/nº tres/nº tres/nº dos/nº ocho/nº cuatro/almohadilla/asterisco/almohadilla/asterisco). No se porque no visualiza los asterisco el GitHub.
 
 Después deberemos utilizar el aplicativo adb desde la línea de comandos y executar la siguiente instrucción:
 adb forward tcp:6000 localfilesystem:/data/local/debugger-socket
