@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TempleAgent</title>
+        <meta name="description" content="TempleAgent">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <link rel="stylesheet" href="css/app.css">
+        <script type="text/javascript" src="jqueryui/external/jquery/jquery.js" defer></script>
+        <script type="text/javascript" src="jqueryui/jquery-ui.min.js" defer></script>
+        
+        <script type="text/javascript" src="js/datastorage.js" defer></script>
+        <script type="text/javascript" src="js/telegram.js" defer></script>
+        <script type="text/javascript" src="js/pagetelegram.js" defer></script>
+        <script type="text/javascript" src="js/utils.js" defer></script>
+        <link rel="stylesheet" href="css/controls.css">
+        <link rel="stylesheet" href="css/telegram.css">
+    </head>
+    <body>
+        <section id="title">
+            <h1>TempleAgent (Telegram)</h1>
+        </section>
+        <section id="filepicker" tabindex="0">
+          <div class="users page page1" page="1"></div>
+          <div class="page page2" page="2" style="display:none">
+              <div class="contmessages">
+                  <div class="messages"></div>
+              </div>
+              <div class="continput">
+                  <input type="text" class="iText" />
+              </div>
+          </div>
+            <audio src="/img/sonic.mp3" id="sound" style="display:none"></audio>
+        </section>
+        <footer id="softkeys">
+            <div id="softkey-left">Tornar</div>
+            <div id="softkey-center">Seleccionar</div>
+            <div id="softkey-right">Opcs.</div>
+        </footer>
+    </body>
+</html>

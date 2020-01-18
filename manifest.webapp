@@ -1,0 +1,45 @@
+{
+  "version": "1.0.18",
+  "name": "TelegramClientBot",
+  "description": "Agente de Bot de Telegram",
+  "start_url": "/telegram.html",
+  "icons": {
+    "56": "/img/icons/icon2_112.png",
+    "112": "/img/icons/icon2_112.png",
+    "128": "/img/icons/icon2_112.png"
+  },
+  "developer": {
+    "name": "Abuuuu"
+  },
+  "type": "certified",
+  "origin": "app://TelegramClientBot.cat",
+  "permissions": {
+    "systemXHR": {
+      "description": "Comunicación externa"
+    },
+    "device-storage:sdcard" : {
+      "description": "Required for accessing app manifest files",
+      "access": "readwrite"
+    },
+    "device-storage:sdcard1" : {
+      "description": "Required for accessing app manifest files",
+      "access": "readwrite"
+    },
+    "device-storage:apps":{ "access": "readwrite" },
+    "webapps-manage":{},
+    "power":{}
+  },
+  "categories":["utilities"],
+  "locales": {},
+  "default_locale": "es",
+  "fullscreen": "false",
+  "cursor":"true",
+  "activities": {
+    "templeagent.cat.config": {
+      "href": "./config.html",
+      "disposition": "inline",
+      "returnValue": true
+    }
+  }
+
+}

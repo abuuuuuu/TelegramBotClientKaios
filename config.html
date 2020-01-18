@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TempleAgent</title>
+        <meta name="description" content="TempleAgent">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <link rel="stylesheet" href="css/app.css">
+        <script type="text/javascript" src="jqueryui/external/jquery/jquery.js" defer></script>
+        <script type="text/javascript" src="jqueryui/jquery-ui.min.js" defer></script>
+        
+        <script type="text/javascript" src="js/datastorage.js" defer></script>
+        <script type="text/javascript" src="js/config.js" defer></script>
+        <link rel="stylesheet" href="css/controls.css">
+    </head>
+    <body>
+        <section id="title">
+            <h1>TempleAgent</h1>
+        </section>
+        <section id="filepicker">
+            <div class="input">
+                <label>Telegram Token</label>
+                <input id="tokentelegram" type="text" />
+            </div>
+            <div class="input">
+                <label>IP Raspberry</label>
+                <input id="iprpi" type="text" />
+            </div>
+            <div class="input">
+                <label>Refresc Telegram (segons)</label>
+                <input id="segonsrefresctelegram" type="number" />
+            </div>
+            <div class="input">
+                <label>Telegram dormit pantalla apagada</label>
+                <input id="delayscreenoff" type="checkbox" />
+            </div>
+        </section>
+        <footer id="softkeys">
+            <div id="softkey-left">Cancel·lar</div>
+            <div id="softkey-center"></div>
+            <div id="softkey-right">Desar</div>
+        </footer>
+    </body>
+</html>
